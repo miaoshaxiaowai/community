@@ -6,11 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-public class HelloController {
-    @GetMapping("/hello")
-    public String hello(@RequestParam(name="name") String name, Model model){
-        model.addAttribute("name",name);
-        return "hello";
+public class IndexController {
 
+    @GetMapping("/")//没有东西时返回的地址为iindex
+    public String index(){
+        return "index";
     }
 }
