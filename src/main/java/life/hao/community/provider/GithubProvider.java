@@ -1,8 +1,8 @@
-package life.hao.community.community.provider;
+package life.hao.community.provider;
 
 import com.alibaba.fastjson.JSON;
-import life.hao.community.community.dto.AccessTokenDTO;
-import life.hao.community.community.dto.GithubUser;
+import life.hao.community.dto.AccessTokenDTO;
+import life.hao.community.dto.GithubUser;
 import okhttp3.*;
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package life.hao.community.community.dto;
+package life.hao.community.dto;
 
 public class AccessTokenDTO {
     private String client_id;

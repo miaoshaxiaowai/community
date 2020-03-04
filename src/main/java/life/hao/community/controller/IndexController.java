@@ -1,4 +1,4 @@
-package life.hao.community.community.controller;
+package life.hao.community.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

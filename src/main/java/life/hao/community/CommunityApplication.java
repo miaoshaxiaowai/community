@@ -1,4 +1,4 @@
-package life.hao.community.community;
+package life.hao.community;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
