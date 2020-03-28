@@ -1,0 +1,11 @@
+2020-03-28 23:19:48.207  INFO 7140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-28 23:19:48.244  INFO 7140 --- [restartedMain] life.hao.community.CommunityApplication  : Started CommunityApplication in 2.172 seconds (JVM running for 590.111)
+2020-03-28 23:19:48.250  INFO 7140 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-28 23:20:32.635  INFO 7140 --- [Thread-68] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-28 23:20:32.640  INFO 7140 --- [Thread-68] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-03-28 23:20:32.641  INFO 7140 --- [Thread-68] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2020-03-28 23:20:32.657  INFO 7140 --- [Thread-68] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2020-03-28 23:23:50.266  INFO 7140 --- [restartedMain] life.hao.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-JSKN6AB with PID 7140 (E:\community\target\classes started by hao in E:\community)
+2020-03-28 23:23:50.266  INFO 7140 --- [restartedMain] life.hao.community.CommunityApplication  : No active profile set, falling back to default profiles: default
+2020-03-28 23:23:50.736  INFO 7140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-28 23:23:50.744  INFO 7140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 JPA repository interfaces.

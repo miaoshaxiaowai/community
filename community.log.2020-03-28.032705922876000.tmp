@@ -1,0 +1,8 @@
+2020-03-28 23:19:45.239  INFO 7140 --- [Thread-63] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2020-03-28 23:19:46.168  INFO 7140 --- [restartedMain] life.hao.community.CommunityApplication  : Starting CommunityApplication on DESKTOP-JSKN6AB with PID 7140 (E:\community\target\classes started by hao in E:\community)
+2020-03-28 23:19:46.168  INFO 7140 --- [restartedMain] life.hao.community.CommunityApplication  : No active profile set, falling back to default profiles: default
+2020-03-28 23:19:46.895  INFO 7140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-03-28 23:19:46.907  INFO 7140 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 JPA repository interfaces.
+2020-03-28 23:19:47.384  INFO 7140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-28 23:19:47.384  INFO 7140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-28 23:19:47.384  INFO 7140 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]

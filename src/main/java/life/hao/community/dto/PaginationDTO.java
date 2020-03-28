@@ -6,8 +6,8 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import java.util.ArrayList;
 import java.util.List;
 @Data
-public class PaginationDTO {
-    private List<QuestionDTO> questions;
+public class PaginationDTO<T> {
+    private List<T> data;
     private boolean showPrevious;
     private boolean showFirstPage;
     private boolean showNext;
@@ -56,5 +56,8 @@ public class PaginationDTO {
         }else{
             showEndPage = true;
         }
+    }
+
+    public void setQuestions(List<QuestionDTO> questionDTOList) {
     }
 }

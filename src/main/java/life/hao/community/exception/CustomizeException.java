@@ -1,16 +1,23 @@
 package life.hao.community.exception;
 
-public class CustomizeException extends RuntimeException{
+/**
+ * Created by codedrinker on 2019/5/28.
+ */
+public class CustomizeException extends RuntimeException {
     private String message;
-    public CustomizeException(ICustomizeErrorCode errorCode){
-        this.message =errorCode.getMessage();
+    private Integer code;
+
+    public CustomizeException(ICustomizeErrorCode errorCode) {
+        this.code = errorCode.getCode();
+        this.message = errorCode.getMessage();
     }
-    public CustomizeException(String message){
-        this.message =message;
-    }
+
     @Override
-    public String getMessage(){
+    public String getMessage() {
         return message;
     }
 
+    public Integer getCode() {
+        return code;
+    }
 }

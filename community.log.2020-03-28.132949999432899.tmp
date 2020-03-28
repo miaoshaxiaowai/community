@@ -1,0 +1,11 @@
+2020-03-28 23:23:51.310  INFO 7140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-28 23:23:51.319  INFO 7140 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-28 23:23:51.319  INFO 7140 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-28 23:23:51.370  INFO 7140 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-28 23:23:51.370  INFO 7140 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1100 ms
+2020-03-28 23:23:51.419  INFO 7140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2020-03-28 23:23:51.442  INFO 7140 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2020-03-28 23:23:51.442  INFO 7140 --- [restartedMain] o.f.c.internal.database.DatabaseFactory  : Database: jdbc:mysql://127.0.0.1:3306/community (MySQL 8.0)
+2020-03-28 23:23:51.465  INFO 7140 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 11 migrations (execution time 00:00.010s)
+2020-03-28 23:23:51.472  INFO 7140 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema `community`: 11
+2020-03-28 23:23:51.473  INFO 7140 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema `community` is up to date. No migration necessary.

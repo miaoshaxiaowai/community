@@ -1,0 +1,4 @@
+2020-03-28 23:23:52.411  INFO 7140 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-28 23:23:52.430  INFO 7140 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-28 23:23:52.431  INFO 7140 --- [restartedMain] life.hao.community.CommunityApplication  : Started CommunityApplication in 2.232 seconds (JVM running for 834.298)
+2020-03-28 23:23:52.433  INFO 7140 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
