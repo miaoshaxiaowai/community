@@ -1,4 +1,4 @@
-## 码匠社区
+##小豪社区
 
 ## 快速运行
 1. 安装必备工具  
@@ -19,7 +19,25 @@ java -jar target/community-0.0.1-SNAPSHOT.jar
 6. 访问项目
 ```
 http://localhost:8887
+
 ```
+## 部署
+### 依赖
+- Git 
+- JDK
+- Maven
+- MySQL
+## 步骤
+- yum update 
+- yum install git
+- mkdir App
+- cd App
+- git clone https://github.com/miaoshaxiaowai/community.git
+- yum install maven
+- mvn -v
+- mvn compile package  
+#maven 依赖包下载
+cp src/main/resources/application.properties src/main/resources/application-production.properties
 
 
 ## 资料

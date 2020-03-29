@@ -6,6 +6,7 @@ import life.hao.community.mapper.UserMapper;
 import life.hao.community.model.User;
 import life.hao.community.provider.GithubProvider;
 import life.hao.community.service.UserService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -20,6 +21,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.UUID;
 
 @Controller
+@Slf4j
 public class AuthorizeController {
     @Autowired
     private GithubProvider githubProvider;
@@ -61,6 +63,7 @@ public class AuthorizeController {
             return "redirect:/";
             //登录成功，写cookie和session
         }else{
+            log.error("callback get github error,{}",githubUser);
             //等罗失败埃，重新登录
             System.out.println("失败");
             return "redirect:/";
