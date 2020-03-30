@@ -40,6 +40,8 @@ http://localhost:8887
 #maven 依赖包下载
 cp src/main/resources/application.properties src/main/resources/application-production.properties
 java -jar -Dspring.profiles.active=production target/community-0.0.1-SNAPSHOT.jar
+ps -aux |grep java
+
 
 
 ## 资料
